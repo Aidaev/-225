@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S1</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>Test Cases</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C1</id>
+				<title>Сайт одежды</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>заходим на сайт - http://automationpractice.com/index.php?controller=authentication&amp;back=my-account
+вводим валидный адрес электронной почты в разделе &quot;создать аккаунт&quot; и нажимаем кнопку &quot;создать аккаунт&quot; 
+появляется страница сайта второго этапа регистрации</preconds>
+										<steps>первый шаг - заполняем все обязательные поля валидными значениями
+второй шаг - нажимаем кнопку &quot;регистрация&quot;</steps>
+										<expected>переход на главную страницу сайта под своим созданным аккаунтом</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C2</id>
+				<title>сайт одежды</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>заходим на сайт - http://automationpractice.com/index.php?controller=authentication&amp;back=my-account
+
+вводим валидный адрес электронной почты в разделе &quot;создать аккаунт&quot; и нажимаем кнопку &quot;создать аккаунт&quot;
+
+появляется страница сайта второго этапа регистрации
+
+
+
+
+</preconds>
+										<steps>первый шаг - заполняем все обязательные поля валидными значениями, кроме одного - поле &quot;фамилия&quot; остается пустым 
+второй шаг - нажимаем кнопку &quot;регистрация&quot;</steps>
+										<expected>переход на главную страницу сайта не состоялся, причина в ошибке - поле &quot;фамилия&quot; обязательно для заполнения </expected>
+									</custom>
+							</case>
+															<case>
+				<id>C3</id>
+				<title>сайт одежды</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>заходим на сайт - http://automationpractice.com/index.php?controller=authentication&amp;back=my-account
+
+
+
+вводим валидный адрес электронной почты в разделе &quot;создать аккаунт&quot; и нажимаем кнопку &quot;создать аккаунт&quot;
+
+
+
+появляется страница сайта второго этапа регистрации
+
+
+
+
+</preconds>
+										<steps>первый шаг - заполняем все обязательные поля валидными значениями, кроме поля &quot;пароль&quot; - в нем вносим невалидное значение, 3 символа
+второй шаг - нажимаем кнопку &quot;регистрация&quot;</steps>
+										<expected>переход на главную страницу сайта не состоялся, причина в ошибке - поле &quot;пароль&quot; неверно заполнено </expected>
+									</custom>
+							</case>
+															<case>
+				<id>C4</id>
+				<title>сайт одежды</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>заходим на сайт - http://automationpractice.com/index.php?controller=authentication&amp;back=my-account
+
+
+
+вводим валидный адрес электронной почты в разделе &quot;создать аккаунт&quot; и нажимаем кнопку &quot;создать аккаунт&quot;
+
+появляется страница сайта второго этапа регистрации
+
+
+
+
+</preconds>
+										<steps>первый шаг - заполняем все обязательные поля валидными значениями
+второй шаг - нажимаем кнопку &quot;регистрация&quot; и переходим на первую страницу главного сайта
+третий шаг - возвращаемся на второй этап регистрации нажатием кнопки в верхнем левом углу экрана - &quot;вернуться&quot;, стрелка налево
+четвертый шаг - вводим новые валидные значение в поле &quot;фамилия&quot; и &quot;имя&quot;
+пятый шаг - нажатие кнопки &quot;регистрация&quot;</steps>
+										<expected>переход на главную страницу сайта состоялся с измененными данными фамилии и имени </expected>
+									</custom>
+							</case>
+															<case>
+				<id>C5</id>
+				<title>сайт одежды</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>заходим на сайт - http://automationpractice.com/index.php?controller=authentication&amp;back=my-account
+
+
+
+вводим валидный адрес электронной почты в разделе &quot;создать аккаунт&quot; и нажимаем кнопку &quot;создать аккаунт&quot;
+
+появляется страница сайта второго этапа регистрации
+
+
+
+
+</preconds>
+										<steps>первый шаг - заполняем все обязательные поля валидными значениями
+второй шаг - нажимаем кнопку &quot;регистрация&quot; и переходим на первую страницу главного сайта
+третий шаг - возвращаемся на второй этап регистрации нажатием кнопки в верхнем левом углу экрана - &quot;вернуться&quot;, стрелка налево
+четвертый шаг - вводим некорректные значения в поле &quot;пароль&quot;
+пятый шаг - нажатие кнопки &quot;регистрация&quot;</steps>
+										<expected>переход на главную страницу сайта не состоялся по причине неверного введения &quot;пароля&quot;</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C6</id>
+				<title>сайт одежды</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>заходим на сайт - http://automationpractice.com/index.php?controller=authentication&amp;back=my-account
+
+
+
+вводим валидный адрес электронной почты в разделе &quot;создать аккаунт&quot; и нажимаем кнопку &quot;создать аккаунт&quot;
+
+
+
+появляется страница сайта второго этапа регистрации
+
+
+
+
+</preconds>
+										<steps>первый шаг - заполняем все обязательные поля валидными значениями, но в нижней части анкеты под названием &quot;ваш адрес&quot; меняем данные в синхронных полях &quot;фамилия&quot; и &quot;имя&quot; 
+второй шаг - нажимаем кнопку &quot;регистрация&quot;</steps>
+										<expected>переход на главную страницу сайта не состоялся, причина в ошибке - несовпадение синхронных полей &quot;фамилия&quot; и &quot;имя&quot; </expected>
+									</custom>
+							</case>
+															<case>
+				<id>C7</id>
+				<title>сайт одежды</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>заходим на сайт - http://automationpractice.com/index.php?controller=authentication&amp;back=my-account
+
+
+
+вводим валидный адрес электронной почты в разделе &quot;создать аккаунт&quot; и нажимаем кнопку &quot;создать аккаунт&quot;
+
+появляется страница сайта второго этапа регистрации
+
+
+
+
+</preconds>
+										<steps>первый шаг - заполняем все обязательные поля валидными значениями, но в необязательном поле &quot;дата рождения&quot; вносим некорректную дату - 31 февраля 2022 год
+второй шаг - нажимаем кнопку &quot;регистрация&quot;</steps>
+										<expected>переход на главную страницу сайта не состоялся, причина в ошибке - некорректный ввод в поле &quot;дата рождения&quot;</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+</suite>

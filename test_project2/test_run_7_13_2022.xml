@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<run>
+	<id>R1</id>
+	<name>Test Run 7/13/2022</name>
+	<description>сайт одежды</description>
+	<config></config>
+	<createdon>2022-07-13T11:06:08Z</createdon>
+		<completed>true</completed>
+	<completedon>2022-07-13T11:46:55Z</completedon>
+		<milestone></milestone>
+	<stats>
+										<passed>
+			<percent>57</percent>
+			<count>4</count>
+		</passed>
+											<blocked>
+			<percent>0</percent>
+			<count>0</count>
+		</blocked>
+											<untested>
+			<percent>0</percent>
+			<count>0</count>
+		</untested>
+											<retest>
+			<percent>0</percent>
+			<count>0</count>
+		</retest>
+											<failed>
+			<percent>43</percent>
+			<count>3</count>
+		</failed>
+																																																				</stats>	<sections>
+		<section>
+		<name>Test Cases</name>
+		<description></description>
+						<tests>
+																																																									<test>
+				<id>T1</id>
+				<title>Сайт одежды</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>заходим на сайт - http://automationpractice.com/index.php?controller=authentication&amp;back=my-account
+вводим валидный адрес электронной почты в разделе &quot;создать аккаунт&quot; и нажимаем кнопку &quot;создать аккаунт&quot; 
+появляется страница сайта второго этапа регистрации</preconds>
+										<steps>первый шаг - заполняем все обязательные поля валидными значениями
+второй шаг - нажимаем кнопку &quot;регистрация&quot;</steps>
+										<expected>переход на главную страницу сайта под своим созданным аккаунтом</expected>
+									</custom>
+												<caseid>C1</caseid>
+																<status>Passed</status>
+																<assignedto>Муслим Айдаев</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-07-13T11:13:27Z</createdon>
+																		<createdby>Муслим Айдаев</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-07-13T11:06:08Z</createdon>
+																		<createdby>Муслим Айдаев</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T2</id>
+				<title>сайт одежды</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>заходим на сайт - http://automationpractice.com/index.php?controller=authentication&amp;back=my-account
+
+вводим валидный адрес электронной почты в разделе &quot;создать аккаунт&quot; и нажимаем кнопку &quot;создать аккаунт&quot;
+
+появляется страница сайта второго этапа регистрации
+
+
+
+
+</preconds>
+										<steps>первый шаг - заполняем все обязательные поля валидными значениями, кроме одного - поле &quot;фамилия&quot; остается пустым 
+второй шаг - нажимаем кнопку &quot;регистрация&quot;</steps>
+										<expected>переход на главную страницу сайта не состоялся, причина в ошибке - поле &quot;фамилия&quot; обязательно для заполнения </expected>
+									</custom>
+												<caseid>C2</caseid>
+																<status>Passed</status>
+																<assignedto>Муслим Айдаев</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-07-13T11:15:24Z</createdon>
+																		<createdby>Муслим Айдаев</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-07-13T11:06:08Z</createdon>
+																		<createdby>Муслим Айдаев</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T3</id>
+				<title>сайт одежды</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>заходим на сайт - http://automationpractice.com/index.php?controller=authentication&amp;back=my-account
+
+
+
+вводим валидный адрес электронной почты в разделе &quot;создать аккаунт&quot; и нажимаем кнопку &quot;создать аккаунт&quot;
+
+
+
+появляется страница сайта второго этапа регистрации
+
+
+
+
+</preconds>
+										<steps>первый шаг - заполняем все обязательные поля валидными значениями, кроме поля &quot;пароль&quot; - в нем вносим невалидное значение, 3 символа
+второй шаг - нажимаем кнопку &quot;регистрация&quot;</steps>
+										<expected>переход на главную страницу сайта не состоялся, причина в ошибке - поле &quot;пароль&quot; неверно заполнено </expected>
+									</custom>
+												<caseid>C3</caseid>
+																<status>Passed</status>
+																<assignedto>Муслим Айдаев</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-07-13T11:16:28Z</createdon>
+																		<createdby>Муслим Айдаев</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-07-13T11:06:08Z</createdon>
+																		<createdby>Муслим Айдаев</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T4</id>
+				<title>сайт одежды</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>заходим на сайт - http://automationpractice.com/index.php?controller=authentication&amp;back=my-account
+
+
+
+вводим валидный адрес электронной почты в разделе &quot;создать аккаунт&quot; и нажимаем кнопку &quot;создать аккаунт&quot;
+
+появляется страница сайта второго этапа регистрации
+
+
+
+
+</preconds>
+										<steps>первый шаг - заполняем все обязательные поля валидными значениями
+второй шаг - нажимаем кнопку &quot;регистрация&quot; и переходим на первую страницу главного сайта
+третий шаг - возвращаемся на второй этап регистрации нажатием кнопки в верхнем левом углу экрана - &quot;вернуться&quot;, стрелка налево
+четвертый шаг - вводим новые валидные значение в поле &quot;фамилия&quot; и &quot;имя&quot;
+пятый шаг - нажатие кнопки &quot;регистрация&quot;</steps>
+										<expected>переход на главную страницу сайта состоялся с измененными данными фамилии и имени </expected>
+									</custom>
+												<caseid>C4</caseid>
+																<status>Failed</status>
+																<assignedto>Муслим Айдаев</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-07-13T11:18:12Z</createdon>
+																		<createdby>Муслим Айдаев</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment>не произошло изменений данных фамилии и имени. Главная страница сайта открылась с прежними данными</comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-07-13T11:06:08Z</createdon>
+																		<createdby>Муслим Айдаев</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T5</id>
+				<title>сайт одежды</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>заходим на сайт - http://automationpractice.com/index.php?controller=authentication&amp;back=my-account
+
+
+
+вводим валидный адрес электронной почты в разделе &quot;создать аккаунт&quot; и нажимаем кнопку &quot;создать аккаунт&quot;
+
+появляется страница сайта второго этапа регистрации
+
+
+
+
+</preconds>
+										<steps>первый шаг - заполняем все обязательные поля валидными значениями
+второй шаг - нажимаем кнопку &quot;регистрация&quot; и переходим на первую страницу главного сайта
+третий шаг - возвращаемся на второй этап регистрации нажатием кнопки в верхнем левом углу экрана - &quot;вернуться&quot;, стрелка налево
+четвертый шаг - вводим некорректные значения в поле &quot;пароль&quot;
+пятый шаг - нажатие кнопки &quot;регистрация&quot;</steps>
+										<expected>переход на главную страницу сайта не состоялся по причине неверного введения &quot;пароля&quot;</expected>
+									</custom>
+												<caseid>C5</caseid>
+																<status>Failed</status>
+																<assignedto>Муслим Айдаев</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-07-13T11:21:38Z</createdon>
+																		<createdby>Муслим Айдаев</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment>Открылась главная страница сайта с прежде внесенными данными. сайт не реагирует на некорректные данные после возвращения на страницу во второй этап регистрации. </comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-07-13T11:06:08Z</createdon>
+																		<createdby>Муслим Айдаев</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T6</id>
+				<title>сайт одежды</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>заходим на сайт - http://automationpractice.com/index.php?controller=authentication&amp;back=my-account
+
+
+
+вводим валидный адрес электронной почты в разделе &quot;создать аккаунт&quot; и нажимаем кнопку &quot;создать аккаунт&quot;
+
+
+
+появляется страница сайта второго этапа регистрации
+
+
+
+
+</preconds>
+										<steps>первый шаг - заполняем все обязательные поля валидными значениями, но в нижней части анкеты под названием &quot;ваш адрес&quot; меняем данные в синхронных полях &quot;фамилия&quot; и &quot;имя&quot; 
+второй шаг - нажимаем кнопку &quot;регистрация&quot;</steps>
+										<expected>переход на главную страницу сайта не состоялся, причина в ошибке - несовпадение синхронных полей &quot;фамилия&quot; и &quot;имя&quot; </expected>
+									</custom>
+												<caseid>C6</caseid>
+																<status>Failed</status>
+																<assignedto>Муслим Айдаев</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-07-13T11:23:37Z</createdon>
+																		<createdby>Муслим Айдаев</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment>Переход на главную страницу состоялся, хотя синхронные данные имеют разные значения (несинхронное)</comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-07-13T11:06:08Z</createdon>
+																		<createdby>Муслим Айдаев</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T7</id>
+				<title>сайт одежды</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>заходим на сайт - http://automationpractice.com/index.php?controller=authentication&amp;back=my-account
+
+
+
+вводим валидный адрес электронной почты в разделе &quot;создать аккаунт&quot; и нажимаем кнопку &quot;создать аккаунт&quot;
+
+появляется страница сайта второго этапа регистрации
+
+
+
+
+</preconds>
+										<steps>первый шаг - заполняем все обязательные поля валидными значениями, но в необязательном поле &quot;дата рождения&quot; вносим некорректную дату - 31 февраля 2022 год
+второй шаг - нажимаем кнопку &quot;регистрация&quot;</steps>
+										<expected>переход на главную страницу сайта не состоялся, причина в ошибке - некорректный ввод в поле &quot;дата рождения&quot;</expected>
+									</custom>
+												<caseid>C7</caseid>
+																<status>Passed</status>
+																<assignedto>Муслим Айдаев</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-07-13T11:24:22Z</createdon>
+																		<createdby>Муслим Айдаев</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-07-13T11:06:08Z</createdon>
+																		<createdby>Муслим Айдаев</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+</sections>
+</run>
